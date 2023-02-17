@@ -15,6 +15,6 @@ $router->put('ProgettoPHPeMySQL/updateType', 'ServicesTypeController@updateType'
 $router->delete('ProgettoPHPeMySQL/deleteService', 'DeliveredServicesController@deleteService');
 $router->delete('ProgettoPHPeMySQL/deletesType', 'ServicesTypeController@deleteType');
 
-$router->get('ProgettoPHPeMySQL/filterType', 'DeliveredServicesController@filterType');
-$router->get('ProgettoPHPeMySQL/filterDate', 'DeliveredServicesController@filterDate');
+$router->post('ProgettoPHPeMySQL/filterType', 'DeliveredServicesController@filterType');
+$router->post('ProgettoPHPeMySQL/filterDate', 'DeliveredServicesController@filterDate');
 $router->get('ProgettoPHPeMySQL/filterSavedTime', 'ServicesTypeController@filterSavedTime');
