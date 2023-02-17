@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![GitHub repo size](https://img.shields.io/github/repo-size/TboyDark/progettoPhp-MySql?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/TboyDark/progettoPhp-MySql?style=for-the-badge&logo=php) ![](https://img.shields.io/badge/dependency%20manager%20used-composer-green?style=for-the-badge&logo=composer)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TboyDark/progettoPhp-MySql?style=for-the-badge&logo=github) ![](https://img.shields.io/badge/PHP%20Package-WAMP-purple?style=for-the-badge&logo=wampserver)
 #   My PHP and MySQL Project
