@@ -17,7 +17,7 @@ http://localhost/ProgettoPHPeMySQL/filterType
 With type **POST** and **PUT** select **Body** -> **raw** select **JSON** type and then right under write a json with this request:
 ```bash
 {
-    "tipologiaPrestazione": "1"
+    "serviceType": "1"
 }
 ```
 ---
@@ -28,7 +28,7 @@ http://localhost/ProgettoPHPeMySQL/filterDate
 With type **POST** and **PUT** select **Body** -> **raw** select **JSON** type and then right under write a json with this request:
 ```bash
 {
-    "dataDiVendita": "2023-01-01"
+    "salesData": "2023-01-01"
 }
 ```
 ---
@@ -61,16 +61,23 @@ As like the filters, for type **POST** and **PUT** select **Body** -> **raw** se
 ```bash
 {
     "id": 3,
-    "nome": "example",
-    "tempoRisparmiato": 2
+    "name": "example",
+    "timeSaved": 2
 }
 ```
 Note that for the create.php you should not insert in the JSON the id data.
-
 For the delivered performance is the same as the tipology, but you have to change the POSTMAN URL with this:
 ```bash
 http://localhost/ProgettoPHPeMySQL/www/api/prestazioniErogate/createService.php
 ```
+also the json data for the delivered service are these:
+```bash
+    "id": 1,
+    "serviceType": "example",
+    "salesData": 2,
+    "quantity": 2
+```
+
 Note that you need plurals to read GET: 
 ```bash
 http://localhost/ProgettoPHPeMySQL/www/api/prestazioniErogate/deliveredServices.php
@@ -78,7 +85,6 @@ http://localhost/ProgettoPHPeMySQL/www/api/prestazioniErogate/deliveredServices.
 ```bash
 http://localhost/ProgettoPHPeMySQL/www/api/prestazioniErogate/serviceTypes.php
 ```
-
 
 ---
 
